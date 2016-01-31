@@ -1,0 +1,172 @@
+.menu_1
+	font-family: 'Roboto', sans-serif
+	background-color: #3c5569
+	height: 40px
+	line-height: 40px
+	font-size: 14px
+	color: black
+	i
+		color: white
+		padding: 0 5px
+	.menu_1_sign
+		margin-left: -13px
+		font-size: 16px
+
+	.menu_1_sign,.menu_1_cart
+		color: #919faa
+		a
+			color: white
+	.menu_1_search
+		display: inline-block
+		min-width: 40px
+		text-align: center
+		height: 100%
+		border-left: 1px solid #2d404f
+		border-right: 1px solid #2d404f
+		margin-right: -8px
+		font-size: 18px
+		margin-left: 15px
+
+	.menu_1_cart
+		text-align: right
+		font-size: 16px
+
+	.menu_1_main
+		text-align: right
+		ul
+			padding: 0
+			li
+				display: inline
+				font-size: 16px
+				padding-left: 5em
+				a
+					color: black
+
+	.menu_1_base
+		margin-top: 33px
+
+	.menu_1_logo
+
+		line-height: 25px
+		img
+			width: 40px
+			height: 40px
+			margin-right: 8px
+		span
+			font-size: 25px
+
+	.menu_1_main_triangle
+		position: relative
+		&:after
+			content: ''
+			position: absolute /* Абсолютное позиционирование */
+			right: -20px
+			top: 6px /* Положение треугольника */
+			border: 6px solid transparent /* Прозрачные границы */
+			border-top: 6px solid #BFBFBF /* Добавляем треугольник */
+
+.displays
+	display: block!important
+
+.menu_1_main_mega
+
+	display: none
+	position: relative
+	.menu_1_main_mega_wrapper
+		position: absolute
+		z-index: 1000
+		top: 55px
+		margin: auto
+		width: 100%
+
+	.layar
+		background-color: white
+		box-shadow: 2px 1px 5px grey
+		padding: 15px
+		border-right: 6px
+
+
+	.photo
+		height: 180px
+		width: 200px
+		background-repeat: no-repeat
+		background-size: cover
+		background-image: url("/img/menu_1_photo.jpg")
+
+
+.menu_1_main_mega_sale
+	span
+		text-transform: uppercase
+		background-color: green
+		padding: 2px 8px
+		color: white
+		border-radius: 4px
+
+.menu_1_main_mega_name_partition
+	span
+		font-size: 18px
+.menu_1_main_mega_price
+	.price
+		font-size: 25px
+		padding-right: 10px
+	.sales
+		text-decoration: line-through
+		color: grey
+
+.menu_1_main_mega_button_ad_to_cart
+	background-color: #cccccc
+	border-radius: 4px
+	border: 1px solid grey
+	text-transform: uppercase
+	line-height: 28px
+	text-align: center
+	color: black
+	display: inline-block
+	padding: 0 10px 0 5px
+	box-shadow: 1px 1px 2px grey
+	&:hover
+		cursor: pointer
+	i
+		color: black
+
+.menu_1_main_mega_cat
+	font-size: 16px
+
+.menu_1_main_mega
+	.navi
+		li
+			display: block
+			line-height: 29px
+			padding: 0 5px
+			&:hover
+				background-color: #f3f3f3
+				border-radius: 4px
+			a
+				color: #808080
+				display: block
+				&:hover
+					text-decoration: none
+					color: #000
+
+// Адаптивност меню
+
+
+@media only screen and (max-width : 1200px)
+	.menu_1
+		.menu_1_main
+			ul
+				li
+					padding-left: 3em
+@media only screen and (max-width : 1200px)
+	.menu_1
+		.menu_1_main
+			ul
+				li
+					padding-left: 2em
+
+@media only screen and (max-width : 768px)
+	.menu_1
+		.menu_1_main
+			ul
+				li
+					padding-left: 2em

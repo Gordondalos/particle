@@ -1,0 +1,114 @@
+extends ./_parts/_layout
+
+block specific
+    link(rel="stylesheet", href="./css/part/menu_1/menu_1.css")
+
+block content
+    .menu_1
+        .container-fluid
+            .container
+                .row
+                    .col-xs-6.col-xs-push-1
+                        .menu_1_sign
+                            a(href='#') Sign In
+                            span &nbsp;or&nbsp;
+                            a(href='#') Sign Up
+                    .col-xs-6.col-xs-pull-1
+                        .menu_cart_wrapper
+                            .menu_1_cart
+                                i.fa.fa-shopping-basket
+                                a(href='#') You cart
+                                span &nbsp;is empty&nbsp;
+                                .menu_1_search
+                                    a(href='#')
+                                        i.fa.fa-search
+
+
+        .container
+            .row
+                .menu_1_base
+                    .col-xs-3.col-xs-push-1
+                        .row
+                            .menu_1_logo
+                                img(src='/img/menu_1_logo.png', title='logo')
+                                span Lucky Store
+
+                    .col-xs-7.pull-right.col-xs-pull-1
+                        .menu_1_main
+                            .row
+                                ul
+                                    li
+                                        a.menu_1_main_triangle(href='#') Men
+                                    li
+                                        a.menu_1_main_triangle(href='#') Women
+                                    li
+                                        a(href='#') Sale!
+                                    li
+                                        a(href='#') Info
+                                    li
+                                        a(href='#') Contacts
+
+                .menu_1_main_mega
+                    .menu_1_main_mega_wrapper
+                        .col-xs-10.col-xs-push-1.layar
+                            .row
+                                .col-xs-3
+                                    .photo &nbsp;
+                                .col-xs-2
+                                    .row
+                                        .menu_1_main_mega_sale
+                                            a(href='#')
+                                                span sale!
+                                        .menu_1_main_mega_name_partition
+                                            span Dark Snox T-Shirt
+                                        .menu_1_main_mega_price
+                                            span.price $49
+                                            span.sales $59
+                                        .menu_1_main_mega_button_ad_to_cart
+                                            span
+                                                i.fa.fa-shopping-basket
+                                            span.add_to_cart Add to Cart
+
+                                .col-xs-4
+                                    span.menu_1_main_mega_cat Categories
+                                    .navi
+                                        .row
+                                            .col-xs-6
+                                                ul
+                                                    li
+                                                        a(href='#') Costumes
+                                                    li
+                                                        a(href='#') Jackets
+                                                    li
+                                                        a(href='#') Jeans
+                                                    li
+                                                        a(href='#') Jumpers
+                                            .col-xs-6
+                                                ul
+                                                    li
+                                                        a(href='#') Shorts
+                                                    li
+                                                        a(href='#') Socks
+                                                    li
+                                                        a(href='#') T-shirts
+                                                    li
+                                                        a(href='#') Underwear
+
+
+
+
+                                .col-xs-2
+
+                                    span.menu_1_main_mega_cat Collections
+                                    .navi
+                                       ul
+                                            li
+                                                a(href='#') Classic
+                                            li
+                                                a(href='#') Apocalypse Now
+                                            li
+                                                a(href='#') Orange Life
+                                            li
+                                                a(href='#') Party Time
+block specificjs
+    script(src="js/menu_1/menu_1.js")
