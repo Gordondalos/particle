@@ -1,0 +1,156 @@
+/* line 4, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2 {
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #808080;
+  padding-top: 15px;
+}
+/* line 11, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2 a {
+  color: #808080;
+}
+/* line 13, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2 span.logo {
+  font-size: 30px;
+  color: #000000;
+}
+
+/* line 16, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_rigth {
+  text-align: right;
+}
+
+/* line 18, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_sign {
+  display: inline;
+}
+
+/* line 22, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_search {
+  display: inline;
+  position: relative;
+}
+/* line 25, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_search input {
+  display: inline;
+  border-radius: 3px;
+  padding: 2px 35px 2px 10px;
+  margin-left: 15px;
+  box-shadow: none;
+  border: 1px solid #d7d7d7;
+}
+/* line 32, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_search a {
+  position: absolute;
+  right: 15px;
+  top: -5px;
+  font-size: 16px;
+}
+
+/* line 38, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_main_triangle {
+  position: relative;
+}
+/* line 40, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_main_triangle:after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 7px;
+  border: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+/* line 49, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_rigth_wrapper a {
+  color: #fff;
+}
+/* line 51, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_rigth_wrapper b {
+  padding: 0 5px;
+}
+
+/* line 55, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_red, .menu_2_white {
+  background-color: red;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+/* line 59, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_red li, .menu_2_white li {
+  display: inline-block;
+  padding-right: 3.6em;
+}
+/* line 62, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_red li a, .menu_2_white li a {
+  color: #fff;
+  font-size: 15px;
+}
+
+/* line 65, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_white {
+  background-color: white;
+  box-shadow: 1px 1px 3px grey;
+  margin-top: 0;
+}
+/* line 70, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_white li {
+  padding: 2px 1em 2px 1em;
+  border-right: 1px solid #808080;
+}
+/* line 73, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_white li:first-child {
+  padding-left: 0;
+}
+/* line 76, ../../../../src/sass/part/menu_2/menu_2.sass */
+.menu_2_white li a {
+  color: #808080;
+}
+
+/* line 79, ../../../../src/sass/part/menu_2/menu_2.sass */
+.displays {
+  display: block !important;
+}
+
+/* line 82, ../../../../src/sass/part/menu_2/menu_2.sass */
+ul.menu_2_main_droppdown {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  opacity: 1;
+  z-index: 1000;
+  box-shadow: 1px 0px 2px #808080;
+  background: #fff;
+  display: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+/* line 93, ../../../../src/sass/part/menu_2/menu_2.sass */
+ul.menu_2_main_droppdown li {
+  margin-top: 2px;
+  background-color: red;
+  display: block;
+  padding: 3px 10px;
+  width: 150px;
+  border-radius: 3px;
+}
+/* line 100, ../../../../src/sass/part/menu_2/menu_2.sass */
+ul.menu_2_main_droppdown li a {
+  white-space: nowrap;
+  display: block;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 115, ../../../../src/sass/part/menu_2/menu_2.sass */
+  .menu_2_red li, .menu_2_white li {
+    padding-right: 2em;
+  }
+
+  /* line 119, ../../../../src/sass/part/menu_2/menu_2.sass */
+  .menu_2_white li {
+    padding-right: 0.5em;
+  }
+}

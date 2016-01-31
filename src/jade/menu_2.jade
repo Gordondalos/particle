@@ -1,0 +1,104 @@
+extends ./_parts/_layout
+
+block specific
+    link(rel="stylesheet", href="./css/part/menu_2/menu_2.css")
+
+block content
+    .menu_2
+        .container-fluid
+            .container
+                .row
+                    .col-xs-6.col-xs-push-1
+                        span.logo Lucky Store
+                    .col-xs-6.col-xs-pull-1.menu_2_rigth
+                        .menu_2_sign
+                            a(href='#') Sign In
+                            span &nbsp;/&nbsp;
+                            a(href='#') Sign Up
+                        .menu_2_search
+                            input.search(placeholder="Search...")
+                            a#search(href='#')
+                                i.fa.fa-search
+
+        .menu_2_red
+            .container-fluid
+                .container
+                    .row
+                        .col-xs-8.col-xs-push-1
+                            ul
+                                li.one
+                                    a#men.menu_2_main_triangle(href='#') Men
+                                    ul.menu_2_main_droppdown
+                                        li
+                                            a(href='#') Sale!
+                                        li
+                                            a(href='#') Sale!
+                                        li
+                                            a(href='#') Sale!
+                                        li
+                                            a(href='#') Sale!
+                                        li
+                                            a(href='#') Sale!
+
+
+                                li.two
+                                    a#women.menu_2_main_triangle(href='#') Women
+                                    ul.menu_2_main_droppdown
+                                        li
+                                            a(href='#') Blouses
+                                        li
+                                            a(href='#') Cardigans
+                                        li
+                                            a(href='#') Coats
+                                        li
+                                            a(href='#') Costumes
+                                        li
+                                            a(href='#') Jeans
+                                        li
+                                            a(href='#') Underwear
+                                li
+                                    a(href='#') Sale!
+                                li
+                                    a(href='#') Info
+                                li
+                                    a(href='#') Contacts
+                                li
+                                    a(href='#') Account
+
+                        .col-xs-4.col-xs-pull-1.menu_2_rigth
+                            .menu_2_rigth_wrapper
+                                a(href='#')
+                                    i.fa.fa-shopping-basket
+                                    span
+                                        b 5 Items
+                                        |in your car
+        .menu_2_white
+            .container-fluid
+                .container
+                    .row
+                        .col-xs-11.col-xs-push-1
+                            ul
+                                li
+                                    a(href='#') All
+                                li
+                                    a(href='#') Skirts
+                                li
+                                    a(href='#') Blouses
+                                li
+                                    a(href='#') Cardigans
+                                li
+                                    a(href='#') Coats
+                                li
+                                    a(href='#') Costumes
+                                li
+                                    a(href='#') Jeans
+                                li
+                                    a(href='#') Underwear
+
+
+
+
+
+
+block specificjs
+    script(src="js/menu_2/menu_2.js")
