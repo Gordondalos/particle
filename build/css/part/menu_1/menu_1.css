@@ -36,58 +36,68 @@
   margin-right: -8px;
   font-size: 18px;
   margin-left: 15px;
+  padding: 0 7px;
 }
 /* line 30, ../../../../src/sass/part/menu_1/menu_1.sass */
+.menu_1 .menu_1_search input {
+  line-height: 25px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: none;
+  padding: 0 5px;
+  display: none;
+}
+/* line 40, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_cart {
   text-align: right;
   font-size: 16px;
 }
-/* line 34, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 44, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main {
   text-align: right;
 }
-/* line 36, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 46, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main ul {
   padding: 0;
 }
-/* line 38, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 48, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main ul li {
   display: inline;
   font-size: 16px;
   padding-left: 5em;
 }
-/* line 42, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 52, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main ul li a {
   color: black;
 }
-/* line 44, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 54, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_base {
   margin-top: 33px;
 }
-/* line 47, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 57, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_logo {
   line-height: 25px;
 }
-/* line 49, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 59, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_logo img {
   width: 40px;
   height: 40px;
   margin-right: 8px;
 }
-/* line 53, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 63, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_logo span {
   font-size: 25px;
   color: black;
 }
-/* line 56, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 66, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_logo a:hover {
   text-decoration: none;
 }
-/* line 60, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 70, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main_triangle {
   position: relative;
 }
-/* line 62, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 72, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main_triangle:after {
   content: "";
   position: absolute;
@@ -97,17 +107,17 @@
   border-top: 6px solid #BFBFBF;
 }
 
-/* line 70, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 80, ../../../../src/sass/part/menu_1/menu_1.sass */
 .displays {
   display: block !important;
 }
 
-/* line 73, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 83, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega {
   display: none;
   position: relative;
 }
-/* line 77, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 87, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .menu_1_main_mega_wrapper {
   position: absolute;
   z-index: 1000;
@@ -115,14 +125,14 @@
   margin: auto;
   width: 100%;
 }
-/* line 84, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 94, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .layar {
   background-color: white;
   box-shadow: 2px 1px 5px grey;
   padding: 15px;
   border-right: 6px;
 }
-/* line 91, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 101, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .photo {
   height: 180px;
   width: 200px;
@@ -131,7 +141,7 @@
   background-image: url("/img/menu_1/menu_1_photo.jpg");
 }
 
-/* line 100, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 110, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_sale span {
   text-transform: uppercase;
   background-color: green;
@@ -140,23 +150,23 @@
   border-radius: 4px;
 }
 
-/* line 108, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 118, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_name_partition span {
   font-size: 18px;
 }
 
-/* line 111, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 121, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_price .price {
   font-size: 25px;
   padding-right: 10px;
 }
-/* line 114, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 124, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_price .sales {
   text-decoration: line-through;
   color: grey;
 }
 
-/* line 118, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 128, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_button_ad_to_cart {
   background-color: #cccccc;
   border-radius: 4px;
@@ -169,56 +179,56 @@
   padding: 0 10px 0 5px;
   box-shadow: 1px 1px 2px grey;
 }
-/* line 129, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 139, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_button_ad_to_cart:hover {
   cursor: pointer;
 }
-/* line 131, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 141, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_button_ad_to_cart i {
   color: black;
 }
 
-/* line 134, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 144, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_cat {
   font-size: 16px;
 }
 
-/* line 139, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 149, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .navi li {
   display: block;
   line-height: 29px;
   padding: 0 5px;
 }
-/* line 143, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 153, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .navi li:hover {
   background-color: #f3f3f3;
   border-radius: 4px;
 }
-/* line 146, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 156, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .navi li a {
   color: #808080;
   display: block;
 }
-/* line 149, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 159, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .navi li a:hover {
   text-decoration: none;
   color: #000;
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 160, ../../../../src/sass/part/menu_1/menu_1.sass */
+  /* line 170, ../../../../src/sass/part/menu_1/menu_1.sass */
   .menu_1 .menu_1_main ul li {
     padding-left: 3em;
   }
 }
 @media only screen and (max-width: 1200px) {
-  /* line 166, ../../../../src/sass/part/menu_1/menu_1.sass */
+  /* line 176, ../../../../src/sass/part/menu_1/menu_1.sass */
   .menu_1 .menu_1_main ul li {
     padding-left: 2em;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 173, ../../../../src/sass/part/menu_1/menu_1.sass */
+  /* line 183, ../../../../src/sass/part/menu_1/menu_1.sass */
   .menu_1 .menu_1_main ul li {
     padding-left: 2em;
   }
