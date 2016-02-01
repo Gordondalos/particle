@@ -1,4 +1,8 @@
 $base-color: #808080
+$color-logo: #000000
+$base-bg: red
+$box-shadow-menu: grey
+$link-color: #fff
 
 
 .menu_2
@@ -12,7 +16,7 @@ $base-color: #808080
 		color: $base-color
 	span.logo
 		font-size: 30px
-		color: #000000
+		color: $color-logo
 .menu_2_rigth
 	text-align: right
 .menu_2_sign
@@ -53,7 +57,7 @@ $base-color: #808080
 
 
 .menu_2_red
-	background-color: red
+	background-color: $base-bg
 	margin-top: 15px
 	padding-top: 10px
 	li
@@ -65,7 +69,7 @@ $base-color: #808080
 .menu_2_white
 	@extend .menu_2_red
 	background-color: white
-	box-shadow: 1px 1px 3px grey
+	box-shadow: 1px 1px 3px $box-shadow-menu
 	margin-top: 0
 	li
 		padding: 2px 1em 2px 1em
@@ -92,7 +96,7 @@ ul.menu_2_main_droppdown
 	border-radius: 3px
 	li
 		margin-top: 2px
-		background-color: red
+		background-color: $base-bg
 		display: block
 		padding: 3px 10px
 		width: 150px
@@ -100,7 +104,7 @@ ul.menu_2_main_droppdown
 		a
 			white-space: nowrap
 			display: block
-			color: #fff
+			color: $link-color
 
 
 
