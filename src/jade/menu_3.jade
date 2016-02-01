@@ -1,0 +1,61 @@
+extends ./_parts/_layout
+
+block specific
+    link(rel="stylesheet", href="./css/part/menu_3/menu_3.css")
+
+block content
+    .menu_3
+        .container
+            .row
+                .col-xs-3.col-xs-push-1
+                    .row
+                        .menu_3_logo
+                            a(href='#')
+                                img(src='img/menu_3/menu_3_logo.png', title='logo')
+                                span Lucky Store
+                .col-xs-8.col-xs-pull-1.pull-right
+                    .row
+                        .menu_3_sign_cart_wrapper
+                            .menu_3_sign
+                                a(href='#') Sign In
+                                span &nbsp;or &nbsp;
+                                a(href='#') Sign Up
+                            .menu_3_button_cart
+                                i.fa.fa-shopping-basket
+                                a(href='#')
+                                    span.count_product 3 Items
+                                    span in your cart
+                                    span.memu_3_cart_arrow
+                                        i.fa.fa-arrow-right
+        .container
+            .row
+                .col-xs-10.col-xs-push-1.menu_3_base
+
+                    .col-xs-8
+                        .row
+                            .menu_3_navigation
+
+                                ul
+                                    li
+                                        a#men.menu_3_main_triangle(href='#') Men
+                                    li
+                                        a#women.menu_3_main_triangle(href='#') Women
+                                    li
+                                        a(href='#') Sale!
+                                    li
+                                        a(href='#') Info
+                                    li
+                                        a(href='#') Contacts
+                    .col-xs-4.pull-right
+                        .row
+                            .menu_3_search
+
+                                form
+                                    input.search(placeholder="Search...")
+                                    a#search(href='#')
+                                        i.fa.fa-search
+
+
+
+block specificjs
+    script(src="js/menu_3/menu_3.js")

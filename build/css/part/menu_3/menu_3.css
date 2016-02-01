@@ -1,0 +1,138 @@
+/* line 6, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3 {
+  margin-top: 30px;
+}
+
+/* line 9, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_logo {
+  line-height: 25px;
+}
+/* line 11, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+/* line 15, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_logo span {
+  font-size: 25px;
+  color: black;
+}
+/* line 18, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_logo a:hover {
+  text-decoration: none;
+}
+
+/* line 21, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_sign_cart_wrapper {
+  text-align: right;
+  font-size: 14px;
+  color: grey;
+}
+
+/* line 26, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_sign {
+  display: inline-block;
+}
+/* line 28, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_sign a {
+  color: black;
+}
+
+/* line 31, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_button_cart {
+  display: inline-block;
+  box-shadow: 1px 1px 4px grey;
+  padding: 9px 0 9px 15px;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 2px;
+}
+/* line 38, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_button_cart a:hover {
+  text-decoration: none;
+}
+/* line 40, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_button_cart span {
+  color: grey;
+}
+/* line 42, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_button_cart .count_product {
+  color: red;
+  padding: 0 5px;
+}
+/* line 45, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_button_cart .memu_3_cart_arrow {
+  background-color: red;
+  padding: 11px 10px 11px 15px;
+  margin-left: 10px;
+  color: #fff;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* line 53, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_base {
+  background-color: #8869ca;
+  border-radius: 6px;
+  margin-top: 15px;
+  height: 55px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+/* line 62, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_navigation {
+  padding-left: 15px;
+  line-height: 55px;
+}
+/* line 65, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_navigation li {
+  display: inline;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-right: 2em;
+}
+/* line 70, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_navigation li a {
+  color: #fff;
+}
+/* line 72, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_navigation li a:hover {
+  text-decoration: none;
+}
+
+/* line 74, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_search {
+  text-align: right;
+  line-height: 35px;
+  padding: 10px 0;
+  position: relative;
+  margin-right: -5px;
+}
+/* line 80, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_search input.search {
+  border: none;
+  border-radius: 4px;
+  width: 220px;
+  padding: 0 30px 0 10px;
+}
+/* line 85, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_search i {
+  position: absolute;
+  right: 15px;
+  line-height: 35px;
+}
+
+/* line 90, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_main_triangle {
+  position: relative;
+}
+/* line 92, ../../../../src/sass/part/menu_3/menu_3.sass */
+.menu_3_main_triangle:after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 2px;
+  border: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
