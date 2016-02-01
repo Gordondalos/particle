@@ -86,6 +86,7 @@ $color-logo: black
 		position: absolute
 		right: 15px
 		line-height: 35px
+		color: grey
 
 .menu_3_main_triangle
 	position: relative
@@ -98,3 +99,24 @@ $color-logo: black
 		border-top: 6px solid #fff /* Добавляем треугольник */
 
 
+@media only screen and (max-width : 1170px)
+	.menu_3_navigation
+		li
+			padding-right: 1.4em
+@media only screen and (max-width : 1000px)
+	.menu_3_navigation
+		li
+			padding-right: 1.2em
+			font-size: 14px
+			text-transform: none
+	.menu_3_main_triangle
+		&:after
+			right: -12px
+			top: 4px /* Положение треугольника */
+	.menu_3_search
+		input.search
+			width: 150px
+
+
+//
+//@media only screen and (max-width : 768px)

@@ -121,13 +121,14 @@
   position: absolute;
   right: 15px;
   line-height: 35px;
+  color: grey;
 }
 
-/* line 90, ../../../../src/sass/part/menu_3/menu_3.sass */
+/* line 91, ../../../../src/sass/part/menu_3/menu_3.sass */
 .menu_3_main_triangle {
   position: relative;
 }
-/* line 92, ../../../../src/sass/part/menu_3/menu_3.sass */
+/* line 93, ../../../../src/sass/part/menu_3/menu_3.sass */
 .menu_3_main_triangle:after {
   content: "";
   position: absolute;
@@ -135,4 +136,30 @@
   top: 2px;
   border: 6px solid transparent;
   border-top: 6px solid #fff;
+}
+
+@media only screen and (max-width: 1170px) {
+  /* line 104, ../../../../src/sass/part/menu_3/menu_3.sass */
+  .menu_3_navigation li {
+    padding-right: 1.4em;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /* line 108, ../../../../src/sass/part/menu_3/menu_3.sass */
+  .menu_3_navigation li {
+    padding-right: 1.2em;
+    font-size: 14px;
+    text-transform: none;
+  }
+
+  /* line 113, ../../../../src/sass/part/menu_3/menu_3.sass */
+  .menu_3_main_triangle:after {
+    right: -12px;
+    top: 4px;
+  }
+
+  /* line 117, ../../../../src/sass/part/menu_3/menu_3.sass */
+  .menu_3_search input.search {
+    width: 150px;
+  }
 }
