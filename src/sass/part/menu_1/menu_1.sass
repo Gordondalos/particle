@@ -1,10 +1,30 @@
+$top-bg-color: #3c5569
+$link-color: black
+$no-link-color-text: #919faa
+$border-search: #2d404f
+$triangle-color: #BFBFBF
+$base-dropdown-color: grey
+$shadow-dropdown: grey
+$backraund-dropdown: white
+$sale-button-bg: green
+$sale-botton-text: white
+$border-button-add-to-cart: grey
+$bg-button-add-to-cart:  #cccccc
+$box-shadow-button-add-to-cart: grey
+$color-cart-icon: black
+$color-dropdown-link: #808080
+$color-dropdown-link-hover: #000
+$color-hover-drobdown-link-bg: #f3f3f3
+$color-logo: black
+$base-drobdown-text: black
+
 .menu_1
 	font-family: 'Roboto', sans-serif
-	background-color: #3c5569
+	background-color: $top-bg-color
 	height: 40px
 	line-height: 40px
 	font-size: 14px
-	color: black
+	color: $link-color
 	i
 		color: white
 		padding: 0 5px
@@ -13,7 +33,7 @@
 		font-size: 16px
 
 	.menu_1_sign,.menu_1_cart
-		color: #919faa
+		color: $no-link-color-text
 		a
 			color: white
 	.menu_1_search
@@ -21,8 +41,8 @@
 		min-width: 40px
 		text-align: center
 		height: 100%
-		border-left: 1px solid #2d404f
-		border-right: 1px solid #2d404f
+		border-left: 1px solid $border-search
+		border-right: 1px solid $border-search
 		margin-right: -8px
 		font-size: 18px
 		margin-left: 15px
@@ -34,13 +54,9 @@
 			border: none
 			padding: 0 5px
 			display: none
-
-
-
 	.menu_1_cart
 		text-align: right
 		font-size: 16px
-
 	.menu_1_main
 		text-align: right
 		ul
@@ -50,10 +66,9 @@
 				font-size: 16px
 				padding-left: 5em
 				a
-					color: black
+					color: $link-color
 	.menu_1_base
 		margin-top: 33px
-
 	.menu_1_logo
 		line-height: 25px
 		img
@@ -62,11 +77,9 @@
 			margin-right: 8px
 		span
 			font-size: 25px
-			color: black
+			color: $color-logo
 		a:hover
 			text-decoration: none
-
-
 	.menu_1_main_triangle
 		position: relative
 		&:after
@@ -75,13 +88,12 @@
 			right: -20px
 			top: 6px /* Положение треугольника */
 			border: 6px solid transparent /* Прозрачные границы */
-			border-top: 6px solid #BFBFBF /* Добавляем треугольник */
+			border-top: 6px solid $triangle-color /* Добавляем треугольник */
 
 .displays
 	display: block!important
 
 .menu_1_main_mega
-
 	display: none
 	position: relative
 	.menu_1_main_mega_wrapper
@@ -90,13 +102,11 @@
 		top: 55px
 		margin: auto
 		width: 100%
-
 	.layar
-		background-color: white
-		box-shadow: 2px 1px 5px grey
+		background-color: $backraund-dropdown
+		box-shadow: 2px 1px 5px $shadow-dropdown
 		padding: 15px
 		border-right: 6px
-
 
 	.photo
 		height: 180px
@@ -105,11 +115,10 @@
 		background-size: cover
 		background-image: url("/img/menu_1/menu_1_photo.jpg")
 
-
 .menu_1_main_mega_sale
 	span
 		text-transform: uppercase
-		background-color: green
+		background-color: $sale-button-bg
 		padding: 2px 8px
 		color: white
 		border-radius: 4px
@@ -123,23 +132,23 @@
 		padding-right: 10px
 	.sales
 		text-decoration: line-through
-		color: grey
+		color: $base-dropdown-color
 
 .menu_1_main_mega_button_ad_to_cart
-	background-color: #cccccc
+	background-color: $bg-button-add-to-cart
 	border-radius: 4px
-	border: 1px solid grey
+	border: 1px solid $border-button-add-to-cart
 	text-transform: uppercase
 	line-height: 28px
 	text-align: center
-	color: black
+	color: $base-drobdown-text
 	display: inline-block
 	padding: 0 10px 0 5px
-	box-shadow: 1px 1px 2px grey
+	box-shadow: 1px 1px 2px $box-shadow-button-add-to-cart
 	&:hover
 		cursor: pointer
 	i
-		color: black
+		color: $color-cart-icon
 
 .menu_1_main_mega_cat
 	font-size: 16px
@@ -151,10 +160,10 @@
 			line-height: 29px
 			padding: 0 5px
 			&:hover
-				background-color: #f3f3f3
+				background-color: $color-hover-drobdown-link-bg
 				border-radius: 4px
 			a
-				color: #808080
+				color: $color-dropdown-link
 				display: block
 				&:hover
 					text-decoration: none

@@ -1,4 +1,4 @@
-/* line 1, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 21, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 {
   font-family: "Roboto", sans-serif;
   background-color: #3c5569;
@@ -7,25 +7,25 @@
   font-size: 14px;
   color: black;
 }
-/* line 8, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 28, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 i {
   color: white;
   padding: 0 5px;
 }
-/* line 11, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 31, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_sign {
   margin-left: -13px;
   font-size: 16px;
 }
-/* line 15, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 35, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_sign, .menu_1 .menu_1_cart {
   color: #919faa;
 }
-/* line 17, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 37, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_sign a, .menu_1 .menu_1_cart a {
   color: white;
 }
-/* line 19, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 39, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_search {
   display: inline-block;
   min-width: 40px;
@@ -38,7 +38,7 @@
   margin-left: 15px;
   padding: 0 7px;
 }
-/* line 30, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 50, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_search input {
   line-height: 25px;
   margin-right: 10px;
@@ -47,57 +47,57 @@
   padding: 0 5px;
   display: none;
 }
-/* line 40, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 57, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_cart {
   text-align: right;
   font-size: 16px;
 }
-/* line 44, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 60, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main {
   text-align: right;
 }
-/* line 46, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 62, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main ul {
   padding: 0;
 }
-/* line 48, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 64, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main ul li {
   display: inline;
   font-size: 16px;
   padding-left: 5em;
 }
-/* line 52, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 68, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main ul li a {
   color: black;
 }
-/* line 54, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 70, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_base {
   margin-top: 33px;
 }
-/* line 57, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 72, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_logo {
   line-height: 25px;
 }
-/* line 59, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 74, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_logo img {
   width: 40px;
   height: 40px;
   margin-right: 8px;
 }
-/* line 63, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 78, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_logo span {
   font-size: 25px;
   color: black;
 }
-/* line 66, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 81, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_logo a:hover {
   text-decoration: none;
 }
-/* line 70, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 83, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main_triangle {
   position: relative;
 }
-/* line 72, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 85, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1 .menu_1_main_triangle:after {
   content: "";
   position: absolute;
@@ -107,17 +107,17 @@
   border-top: 6px solid #BFBFBF;
 }
 
-/* line 80, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 93, ../../../../src/sass/part/menu_1/menu_1.sass */
 .displays {
   display: block !important;
 }
 
-/* line 83, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 96, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega {
   display: none;
   position: relative;
 }
-/* line 87, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 99, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .menu_1_main_mega_wrapper {
   position: absolute;
   z-index: 1000;
@@ -125,14 +125,14 @@
   margin: auto;
   width: 100%;
 }
-/* line 94, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 105, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .layar {
   background-color: white;
   box-shadow: 2px 1px 5px grey;
   padding: 15px;
   border-right: 6px;
 }
-/* line 101, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 111, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .photo {
   height: 180px;
   width: 200px;
@@ -141,7 +141,7 @@
   background-image: url("/img/menu_1/menu_1_photo.jpg");
 }
 
-/* line 110, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 119, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_sale span {
   text-transform: uppercase;
   background-color: green;
@@ -150,23 +150,23 @@
   border-radius: 4px;
 }
 
-/* line 118, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 127, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_name_partition span {
   font-size: 18px;
 }
 
-/* line 121, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 130, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_price .price {
   font-size: 25px;
   padding-right: 10px;
 }
-/* line 124, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 133, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_price .sales {
   text-decoration: line-through;
   color: grey;
 }
 
-/* line 128, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 137, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_button_ad_to_cart {
   background-color: #cccccc;
   border-radius: 4px;
@@ -179,56 +179,56 @@
   padding: 0 10px 0 5px;
   box-shadow: 1px 1px 2px grey;
 }
-/* line 139, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 148, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_button_ad_to_cart:hover {
   cursor: pointer;
 }
-/* line 141, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 150, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_button_ad_to_cart i {
   color: black;
 }
 
-/* line 144, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 153, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega_cat {
   font-size: 16px;
 }
 
-/* line 149, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 158, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .navi li {
   display: block;
   line-height: 29px;
   padding: 0 5px;
 }
-/* line 153, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 162, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .navi li:hover {
   background-color: #f3f3f3;
   border-radius: 4px;
 }
-/* line 156, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 165, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .navi li a {
   color: #808080;
   display: block;
 }
-/* line 159, ../../../../src/sass/part/menu_1/menu_1.sass */
+/* line 168, ../../../../src/sass/part/menu_1/menu_1.sass */
 .menu_1_main_mega .navi li a:hover {
   text-decoration: none;
   color: #000;
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 170, ../../../../src/sass/part/menu_1/menu_1.sass */
+  /* line 179, ../../../../src/sass/part/menu_1/menu_1.sass */
   .menu_1 .menu_1_main ul li {
     padding-left: 3em;
   }
 }
 @media only screen and (max-width: 1200px) {
-  /* line 176, ../../../../src/sass/part/menu_1/menu_1.sass */
+  /* line 185, ../../../../src/sass/part/menu_1/menu_1.sass */
   .menu_1 .menu_1_main ul li {
     padding-left: 2em;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 183, ../../../../src/sass/part/menu_1/menu_1.sass */
+  /* line 192, ../../../../src/sass/part/menu_1/menu_1.sass */
   .menu_1 .menu_1_main ul li {
     padding-left: 2em;
   }
