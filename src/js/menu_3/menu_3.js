@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $("a").click(function() {
-     var ul = $(this).next();
+    $("a.menu_3_main_triangle").click(function() {
+        var ul = $(this).next();
         if(ul.hasClass('displays')){
-            var ob =  $('ul.menu_2_main_droppdown');
+            var ob =  $('ul.menu_3_main_droppdown');
             ob.each(function(index, element){
                 $(element).fadeOut();
                 $(element).removeClass('displays')
@@ -10,7 +10,7 @@ $(document).ready(function() {
             ul.fadeOut();
             ul.removeClass('displays')
         }else{
-            var ob =  $('ul.menu_2_main_droppdown');
+            var ob =  $('ul.menu_3_main_droppdown');
             ob.each(function(index, element){
                 $(element).fadeOut();
                 $(element).removeClass('displays')

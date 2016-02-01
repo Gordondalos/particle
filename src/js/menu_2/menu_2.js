@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("a").click(function() {
+    $("a.menu_2_main_triangle").click(function() {
      var ul = $(this).next();
         if(ul.hasClass('displays')){
             var ob =  $('ul.menu_2_main_droppdown');

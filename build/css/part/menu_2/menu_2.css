@@ -82,39 +82,40 @@
 .menu_2_red li, .menu_2_white li {
   display: inline-block;
   padding-right: 3.6em;
+  position: relative;
 }
-/* line 66, ../../../../src/sass/part/menu_2/menu_2.sass */
+/* line 67, ../../../../src/sass/part/menu_2/menu_2.sass */
 .menu_2_red li a, .menu_2_white li a {
   color: #fff;
   font-size: 15px;
 }
 
-/* line 69, ../../../../src/sass/part/menu_2/menu_2.sass */
+/* line 70, ../../../../src/sass/part/menu_2/menu_2.sass */
 .menu_2_white {
   background-color: white;
   box-shadow: 1px 1px 3px grey;
   margin-top: 0;
 }
-/* line 74, ../../../../src/sass/part/menu_2/menu_2.sass */
+/* line 75, ../../../../src/sass/part/menu_2/menu_2.sass */
 .menu_2_white li {
   padding: 2px 1em 2px 1em;
   border-right: 1px solid #808080;
 }
-/* line 77, ../../../../src/sass/part/menu_2/menu_2.sass */
+/* line 78, ../../../../src/sass/part/menu_2/menu_2.sass */
 .menu_2_white li:first-child {
   padding-left: 0;
 }
-/* line 80, ../../../../src/sass/part/menu_2/menu_2.sass */
+/* line 81, ../../../../src/sass/part/menu_2/menu_2.sass */
 .menu_2_white li a {
   color: #808080;
 }
 
-/* line 83, ../../../../src/sass/part/menu_2/menu_2.sass */
+/* line 84, ../../../../src/sass/part/menu_2/menu_2.sass */
 .displays {
   display: block !important;
 }
 
-/* line 86, ../../../../src/sass/part/menu_2/menu_2.sass */
+/* line 87, ../../../../src/sass/part/menu_2/menu_2.sass */
 ul.menu_2_main_droppdown {
   position: absolute;
   left: 0;
@@ -127,7 +128,7 @@ ul.menu_2_main_droppdown {
   padding: 5px;
   border-radius: 3px;
 }
-/* line 97, ../../../../src/sass/part/menu_2/menu_2.sass */
+/* line 98, ../../../../src/sass/part/menu_2/menu_2.sass */
 ul.menu_2_main_droppdown li {
   margin-top: 2px;
   background-color: red;
@@ -136,7 +137,7 @@ ul.menu_2_main_droppdown li {
   width: 150px;
   border-radius: 3px;
 }
-/* line 104, ../../../../src/sass/part/menu_2/menu_2.sass */
+/* line 105, ../../../../src/sass/part/menu_2/menu_2.sass */
 ul.menu_2_main_droppdown li a {
   white-space: nowrap;
   display: block;
@@ -144,12 +145,12 @@ ul.menu_2_main_droppdown li a {
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 119, ../../../../src/sass/part/menu_2/menu_2.sass */
+  /* line 120, ../../../../src/sass/part/menu_2/menu_2.sass */
   .menu_2_red li, .menu_2_white li {
     padding-right: 2em;
   }
 
-  /* line 123, ../../../../src/sass/part/menu_2/menu_2.sass */
+  /* line 124, ../../../../src/sass/part/menu_2/menu_2.sass */
   .menu_2_white li {
     padding-right: 0.5em;
   }
